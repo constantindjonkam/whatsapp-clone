@@ -1,0 +1,175 @@
+.mainChat {
+  flex: 0.7;
+  display: flex;
+}
+
+.moreWidth {
+  flex: 0.9 !important;
+}
+
+.chat {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.full {
+  flex: 1 !important;
+  height: 100vh;
+}
+
+.chat__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 9.5px 17.5px;
+  background-color: #ededed;
+}
+
+.chat__header__left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat__header__avatar {
+  width: 40px !important;
+  height: 40px !important;
+  margin-right: 15px;
+}
+
+.chat__headerInfo > h4 {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 15.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.chat__headerInfo > p {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 13px;
+  color: #636363;
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.chat__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 9vw;
+}
+
+.chat__attachFileIcon {
+  transform: rotate(45deg);
+  color: #919191 !important;
+}
+
+.chat__attachFileConatiner {
+  position: relative;
+}
+
+.chat_iconColor {
+  color: #919191 !important;
+}
+
+.chat__body {
+  flex: 1;
+  background-color: #e5ddd5;
+}
+
+.chat__body__bg::before {
+  background-image: url("https://web.whatsapp.com/img/bg-chat-tile-light_686b98c9fdffef3f63127759e2057750.png");
+  background-repeat: repeat;
+  opacity: 0.06;
+
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.chat__body__bg {
+  height: 100%;
+  position: relative;
+}
+
+.chat__body__container {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px 80px;
+}
+
+.chat__body__downIconContainer {
+  background-color: white;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 15px;
+  right: 25px;
+  border-radius: 50%;
+}
+
+.chat__body__downIcon {
+  color: #989898 !important;
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.chat__footer {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 9px;
+}
+
+.chat__footer__input {
+  flex: 1;
+  border-radius: 20px;
+  width: 80%;
+  background-color: white;
+  padding: 11.5px;
+}
+
+.chat__footer__input > input {
+  border: 0px !important;
+  border-color: tomato !important;
+  width: 100%;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+input:focus {
+  outline: none;
+}
+
+.chat__footer__emoji {
+  width: 30px !important;
+  height: 30px !important;
+  color: #969696;
+  padding: 0 15px 0 10px;
+}
+
+.chat__footer__mic {
+  width: 30px !important;
+  height: 30px !important;
+  color: #969696;
+  padding: 0 10px 0 15px;
+}
+
+.MuiSvgIcon-root {
+  cursor: pointer;
+}

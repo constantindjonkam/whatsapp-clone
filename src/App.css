@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+}
+
+@media (max-width: 695px) {
+  .sideBar {
+    flex: 1 !important;
+  }
+
+  .home {
+    display: none;
+  }
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: #808d75 !important;
+}
+
+.App:target .fileMenu {
+  display: none !important;
+}

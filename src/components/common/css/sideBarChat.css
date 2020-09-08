@@ -1,0 +1,61 @@
+.sideBarChat {
+  display: flex;
+  align-items: center;
+  padding: 11.5px;
+  justify-content: space-between;
+}
+
+.sideBarChat__container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sideBarChat__avatar {
+  width: 49px !important;
+  height: 49px !important;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.sideBarChat__timeStand {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: lighter;
+  color: #9a9aa8;
+}
+
+.sideBarChat:hover {
+  background-color: #f5f5f5;
+}
+
+.sideBarChat__active {
+  background-color: #ebebeb !important;
+}
+
+.sideBarChat__info {
+}
+
+.sideBarChat__info > h4 {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.sideBarChat__info > p {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 13px;
+  color: #636363;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
