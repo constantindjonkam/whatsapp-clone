@@ -4,7 +4,7 @@ Make sure you have node js installed on your system.
 
 ## Installation
 
-1. CD to this project directory then enter this command "npm i" to install all the depencies
+1. CD to this project directory then enter this command "npm i" to install all the depedencies
 
 2. Add your config in firebase.js
 
