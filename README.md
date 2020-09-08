@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Make sure you have node js installed on your system.
+
+## Installation
+
+1. CD to this project directory then enter this command "npm i" to install all the depencies
+
+2. Add your config in firebase.js
+
 ## Available Scripts
 
 In the project directory, you can run:
